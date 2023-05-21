@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number!!</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="welcomeArea">
+            <div class="coverImg">
+                <span id="heading">Guess the number!!!<br/>Between 1 and 100  </span>
+                <img src="images/cover.jpg" id="coverPic" alt="cover pic">
+            </div>
+        
+            <div class="gameLevel">
+                <span>Select difficulty Level</span>
+                <button id="easy">EASY LEVEL : 10 Attempts </button>
+                <button id="hard">HARD LEVEL : 5 Attempts </button>
+            </div>
+        </div>
+        <div class="gameArea">
+            <div class="gameArea-output-wrapper">
+                <h1 id="output">Your Guess</h1> 
+            </div>
+                
+            <button id="newGame">New Game</button>
+            <input type="number" min="1" max="100" id="gameInput" width="100px" placeholder="Enter your Guess number">
+            <div class="gameInfo">
+                <span >Number of Attempts made: <span id="numberOfGuess">0</span></span>
+                <span >Previous Guesses made: <span id="previousGuess">Nil</span></span>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
