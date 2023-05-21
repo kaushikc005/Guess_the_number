@@ -26,7 +26,7 @@ Easy level provides 10 attempts while Hard level provides 5 attempts for the gue
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/kaushikc005/Guess_the_number.git
 ```
 
 Go to the project directory and open the index.html in any web browser.
