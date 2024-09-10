@@ -2,7 +2,7 @@
 # Guess the number
 The game is based on HTML,CSS and javascript and takes numbers as input.
 
-## Live Project: https://lucky-liger-8333c8.netlify.app/
+## Live Project: https://lucky-liger-8333c8.netlify.app/](https://main--guess-the-number-game0.netlify.app/
 ## Description
 This project is made as a game,where the user needs to guess a number between 1 and 100.
 The Number of attempts depends upon the level chosen as there are two levels avilable, easy(10 attempts) & hard(5 attempts).
